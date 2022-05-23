@@ -1,0 +1,15 @@
+.tokenHeader {
+    display: flex;
+    justify-content:space-between;
+}
+.tokenHeader h4 {
+    color: grey;
+}
+.blueButton {
+    width:100%;
+    display: flex;
+    justify-content:center;
+    background-color:rgb(45, 123, 246);
+    border-radius: 10px;
+    color:white;
+}

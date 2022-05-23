@@ -1,0 +1,39 @@
+.contentBlock{
+    padding : 10px;
+    padding-top: 70px;
+}
+.welcome {
+    width: 100%;
+    height:200px;
+    display: flex;
+}
+.leftSection {
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rightSection {
+    width: 50%;
+    height:100%;
+}
+.rightSection img {
+    width: 100%;
+}
+.boldText {
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.roundBlueButton {
+    width: 50%;
+    display: flex;
+    padding:10px;
+    font-size:.75em;
+    border-radius:2em;
+    border: 1px solid rgb(117,168,255);
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    color:rgb(117,168,255);
+}

@@ -1,0 +1,46 @@
+{
+  "items": [
+      {
+      "owner": "",
+      "tokenId": "1234",
+      "tokenUri": "https://media.klipwallet.com/1234.json"
+      },
+      {
+      "owner": "",
+      "tokenId": "1235",
+      "tokenUri": "https://media.klipwallet.com/1235.json"
+      }
+  ],
+  "wallet":[
+    [{
+      "token":"klayten",
+      "amount":12345,
+      "symbol":"KLAY"
+    },
+    {
+      "token":"etherium",
+      "amount":111,
+      "symbol":"ETH"
+    }]
+  ],
+  "friend": [
+    {
+      "name":"성찬우"
+    },
+    {
+      "name":"정유림"
+    },
+    {
+      "name":"테스터"
+    },
+    {
+      "name":"권태석"
+    },
+    {
+      "name":"장진영"
+    },
+    {
+      "name":"카카오"
+    }
+  ]
+}
