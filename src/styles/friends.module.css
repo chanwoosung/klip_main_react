@@ -5,11 +5,19 @@
 .tokenHeader h4 {
     color: grey;
 }
-.blueButton {
+.friendsList ul {
+    list-style: none;
+    overflow-x: scroll;
+    display: inline-block;
     width:100%;
-    display: flex;
-    justify-content:center;
-    background-color:rgb(45, 123, 246);
-    border-radius: 10px;
-    color:white;
+    height:120px;
+    padding:0;
+    white-space: nowrap;
+}
+.friendsList ul::-webkit-scrollbar {
+    display: none;
+}
+
+.friendsList ul li{
+    height:100%;
 }

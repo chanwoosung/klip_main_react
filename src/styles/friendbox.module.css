@@ -1,0 +1,11 @@
+.friendBox {
+    width: 32%;
+    height: 32%;
+    margin: 2%;
+}
+.friendBox:nth-child(1) {
+    margin-left: 0;
+}
+.friendBox:last-child {
+    margin-right: 0;
+}
