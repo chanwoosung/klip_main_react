@@ -1,0 +1,38 @@
+.grayFont {
+    color:grey;
+}
+.footerSection{
+    background-color: rgb(241,247,249);
+    border-top: 1px solid rgb(232,238,241);
+    width: calc(100% - 20px);
+    padding:0 10px;
+    padding-bottom:5em;
+}
+.footerArea ul {
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    padding:0;
+    margin: 0;
+}
+.footerArea li{
+    font-size: .9em;
+}
+.footerArea li:after {
+    content: "";
+    display: inline-block;
+    height: 0.8rem;
+    margin: 0 0.5rem;
+    vertical-align: top;
+    width: 1px;
+    background-color: #dee2e6;
+}
+.footerArea li:nth-child(3):after {
+    content: none;
+}
+
+.boldText {
+    color:#000;
+    font-weight:bold;
+}

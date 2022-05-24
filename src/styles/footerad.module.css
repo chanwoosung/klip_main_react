@@ -1,0 +1,21 @@
+.advertiseSection {
+    width: 100%;
+    height: auto;
+    padding:30px 0;
+}
+.advertiseArea {
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+}
+.adContent {
+    margin-bottom:10px;
+}
+.adContent:last-child {
+    margin-bottom:0 !important;
+}
+.adContent img {
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+}

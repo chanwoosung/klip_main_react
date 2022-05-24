@@ -25,22 +25,45 @@
   ],
   "friend": [
     {
+      "id":1,
       "name":"성찬우"
     },
     {
+      "id":2,
       "name":"정유림"
     },
     {
+      "id":3,
       "name":"테스터"
     },
     {
+      "id":4,
       "name":"권태석"
     },
     {
+      "id":5,
       "name":"장진영"
     },
     {
+      "id":6,
       "name":"카카오"
     }
+  ],
+  "card":[
+    [{
+      "owner":"klayten",
+      "tokenId":12345,
+      "name":"순발력"
+    },
+    {
+      "owner":"klayten",
+      "tokenId":1234,
+      "name":"포켓몬"
+    },
+    {
+      "owner":"etherium",
+      "tokenId":111,
+      "name":"포켓몬"
+    }]
   ]
 }

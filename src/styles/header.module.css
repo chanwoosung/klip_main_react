@@ -1,13 +1,19 @@
 .header {
     width:360px;
-    height:50px;
+    height:35px;
     padding:10px 0;
     display: flex;
     justify-content: space-between;
     position:fixed;
+    background-color:white;
+}
+@media screen and (max-width:500px){
+    .header {
+        width:100vw !important;
+    }
 }
 .hamburger {
-    padding: 10px 0 10px 10px;
+    padding: 7.5px 0 7.5px 10px;
     width:30px;
     display: flex;
     flex-direction: column;
@@ -15,7 +21,7 @@
 }
 .line {
     width:100%;
-    height:1px;
+    height:2px;
     background-color:#000;
 }
 .mainlogo {
@@ -35,5 +41,5 @@
 }
 .xbutton img {
     margin: auto;
-    width:30px;
+    width:16px;
 }

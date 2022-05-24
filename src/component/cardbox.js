@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import css from '../styles/friendbox.module.css'
+import css from '../styles/cardbox.module.css'
 import axios from 'axios';
 
-export default function FriendBox({props,profile}) {
+export default function CardBox({props,profile}) {
     // useEffect(()=>{
     //    axiosCall();
     // })
@@ -23,8 +23,8 @@ export default function FriendBox({props,profile}) {
         <div className={css.friendBox}>
             <div className={css.profileIcon}>
                 <img src={profile} onError={handleImgError} alt="user"/>
+                <div className={css.userName}>{props.name}</div>
             </div>
-            <div className={css.userName}>{props.name}</div>
         </div>
     )
 }

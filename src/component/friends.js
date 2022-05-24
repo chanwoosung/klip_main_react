@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-
+import Faker from 'Faker';
 import css from '../styles/friends.module.css'
 import FriendBox from './friendbox';
 export default function Friends() {
@@ -16,15 +16,14 @@ export default function Friends() {
     return (
         <div>
             <div className={css.tokenHeader}>
-                <h3>최근 받은 카드</h3>
-                <h4>전체보기 ></h4>
+                <h3>최근 전송한 친구</h3>
             </div>
             <div className={css.friendsList}>
                 <ul>
                     {friends.map(friend=>{
                         return (
-                            <li>
-                                <FriendBox key={friend.name} props={friend}/>
+                            <li key={friend.name}>
+                                <FriendBox props={friend} profile={Faker.Image.avatar()}/>
                             </li>
                         )
                     })}

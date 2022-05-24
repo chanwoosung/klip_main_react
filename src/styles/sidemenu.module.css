@@ -1,0 +1,54 @@
+.showMenu {
+    width:100%;
+    position:fixed;
+    left : 0;
+    top : 0;
+}
+
+.hiddenMenu {
+    width:100%;
+    position:fixed;
+    left : 0;
+    top : 0;
+}
+.hiddenMenu .background{
+    /* display: none; */
+}
+.showMenu .background {
+    display: block;
+}
+.background {
+    width: 100%;
+    height:100vh;
+    background: rgba(000, 000, 000, 0.5);
+}
+.contentMenu {
+    background-color:white !important;
+    opacity: 1;
+    width: 70%;
+    height:100%;
+}
+.showMenu .contentMenu {
+    animation: slide 1s ease-in-out 0s 1 normal forwards;
+
+}
+.hiddenMenu .contentMenu {
+    animation: slide-in 1s ease-in-out 0s 1 normal forwards;
+
+}
+@keyframes slide {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-in {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

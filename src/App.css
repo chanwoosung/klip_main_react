@@ -3,14 +3,25 @@
   width: 100vw;
   height: 100vh;
 }
-
+@media screen and (max-width:500px){
+  .wrapper {
+    width:100vw !important;
+    height:100vh;
+    margin:auto;
+    background-color:white
+  }
+}
 .wrapper {
   width:360px;
   height:100vh;
   margin:auto;
-  background-color:white
+  background-color:white;
+  overflow:scroll;
 }
 
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
